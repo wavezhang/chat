@@ -23,7 +23,7 @@ $(function() {
   var lastTypingTime;
   var $currentInput = $usernameInput.focus();
 
-  var socket = io({path: ''});
+  var socket = io();
 
   const addParticipantsMessage = (data) => {
     var message = '';
