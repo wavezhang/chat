@@ -11,6 +11,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "echo "
+    "build": "npm install"
   }
 }
